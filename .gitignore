@@ -1,0 +1,46 @@
+# Project structure related
+.classpath
+.project
+.settings
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.swp
+*~.nib
+local.properties
+.loadpath
+*.iml
+*.ipr
+*.iws
+.idea/
+classes/
+
+# Build related
+bin/**
+build
+.gradle
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Scala Related Files
+*.log
+*.class
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+#war file
+docker-dir/web/applets-java-api.war
